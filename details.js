@@ -152,7 +152,7 @@ else{
     director.textContent ="N/A";
     actors.textContent = "N/A";
     genre.textContent = "N/A";
-    trailer.src = `https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1`;
+    trailer.src = `https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0`;
 }
 
 let pe = document.getElementById("parent")
