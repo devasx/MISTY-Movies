@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Film Details</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-black">
+        <header>
+            <div class="bg-black fixed top-0 right-0 left-0">
+                <a href="index.html">
+                    <button class="text-white ml-[56px] mr-[18px] my-[12px] text-[20px] font-bold">
+                        mist video
+                    </button>
+                </a>
+                <a href="index.html">
+                    <button class="text-white ml-[17px] my-[10px] text-[18px] hover:bg-white hover:text-black px-3 py-2 rounded-[12px]">
+                        Home
+                    </button>
+                </a>
+                <a href="movies.html">
+                    <button class="text-white ml-[17px] my-[10px] text-[18px] hover:bg-white hover:text-black px-3 py-2 rounded-[12px]">
+                        Movies
+                    </button>
+                </a>
+            </div>  
+        </header>
+        <div class="mt-[80px] flex justify-between bg-black text-white">
+            <div class="w-[600px] h-[500px]">
+                <h1 class="text-[42px] font-bold mx-12 my-[10px] text-white" id="title">
+                    Bahubali: The Beginning
+                </h1>
+                <div class="h-[35px] w-fit mx-12 mt-[10px] flex justify-between">
+                    <p id="rating" class="mr-2">U/A</p>
+                    <p>|</p>
+                    <p id="length" class="mx-2">2h 39m</p>
+                </div>
+                <p class="text-[18px] mx-12 my-[10px] text-gray-400" id="desc">
+                    A child from the Mahishmati kingdom is raised by tribal people and one day learns about his royal heritage, his father's bravery in battle and a mission to overthrow the incumbent ruler.
+                </p>
+                <div class="h-[35px] w-fit mx-12 mt-[10px] flex justify-between text-gray-400">
+                    <p class="mr-2">Director:</p>
+                    <p id="director">S. S. Rajamouli</p>
+                </div>
+                <div class="h-[35px] w-fit mx-12 mt-[5px] flex justify-between text-gray-400">
+                    <p class="mr-2">Actors:</p>
+                    <p id="actors">Prabhas, Rana Daggubati, Anushka Shetty, Tamannaah Bhatia</p>
+                </div>
+                <div class="h-[35px] w-fit mx-12 mt-[5px] flex justify-between text-gray-400">
+                    <p class="mr-2">Genre:</p>
+                    <p id="genre">Action, Drama</p>
+                </div>
+            </div>
+            <iframe src = "https://www.youtube.com/embed/3NQRhE772b0?autoplay=1&mute=1" id="trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="h-auto w-[850px] [mask-image:linear-gradient(to_right,transparent,black_15%)]">
+            </iframe>
+        </div>
+        
+        <h1 class="text-[30px] font-bold mx-12 my-10 text-white">
+            Other Films Available:
+        </h1>
+
+        <div class="text-white mb-[80px] flex flex-wrap justify-start items-start" id="parent">
+
+        </div>
+
+        <footer class="bg-black text-[12px] text-white">
+            <center>
+                Copyright © 2025 MIST Videos
+            </center>
+        </footer>
+        <script src="details.js"></script>
+    </body>
+</html>
