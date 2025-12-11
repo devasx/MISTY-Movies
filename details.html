@@ -8,7 +8,7 @@
     </head>
     <body class="bg-black">
         <header>
-            <div class="bg-black fixed top-0 right-0 left-0">
+            <div class="bg-black fixed top-0 right-0 left-0 flex flex-wrap items-center justify-start">
                 <a href="index.html">
                     <button class="text-white ml-[56px] mr-[18px] my-[12px] text-[20px] font-bold">
                         mist video
@@ -26,12 +26,12 @@
                 </a>
             </div>  
         </header>
-        <div class="mt-[80px] flex justify-between bg-black text-white">
-            <div class="w-[600px] h-[500px]">
+        <div class="mt-[80px] flex flex-wrap justify-between bg-black text-white">
+            <div class="w-[600px] h-[500px] flex-col lg:flex-row">
                 <h1 class="text-[42px] font-bold mx-12 my-[10px] text-white" id="title">
                     Bahubali: The Beginning
                 </h1>
-                <div class="h-[35px] w-fit mx-12 mt-[10px] flex justify-between">
+                <div class="w-fit mx-12 mt-[10px] flex justify-between">
                     <p id="rating" class="mr-2">U/A</p>
                     <p>|</p>
                     <p id="length" class="mx-2">2h 39m</p>
@@ -39,20 +39,22 @@
                 <p class="text-[18px] mx-12 my-[10px] text-gray-400" id="desc">
                     A child from the Mahishmati kingdom is raised by tribal people and one day learns about his royal heritage, his father's bravery in battle and a mission to overthrow the incumbent ruler.
                 </p>
-                <div class="h-[35px] w-fit mx-12 mt-[10px] flex justify-between text-gray-400">
+                <div class="w-fit mx-12 mt-[10px] flex justify-between text-gray-400">
                     <p class="mr-2">Director:</p>
                     <p id="director">S. S. Rajamouli</p>
                 </div>
-                <div class="h-[35px] w-fit mx-12 mt-[5px] flex justify-between text-gray-400">
+                <div class="w-fit mx-12 mt-[5px] flex justify-between text-gray-400">
                     <p class="mr-2">Actors:</p>
                     <p id="actors">Prabhas, Rana Daggubati, Anushka Shetty, Tamannaah Bhatia</p>
                 </div>
-                <div class="h-[35px] w-fit mx-12 mt-[5px] flex justify-between text-gray-400">
+                <div class="w-fit mx-12 mt-[5px] flex justify-between text-gray-400">
                     <p class="mr-2">Genre:</p>
                     <p id="genre">Action, Drama</p>
                 </div>
             </div>
-            <iframe src = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1" id="trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="h-auto w-[850px] [mask-image:linear-gradient(to_right,transparent,black_15%)]">
+            <iframe src = "https://www.youtube.com/embed/3NQRhE772b0?autoplay=1&mute=1" id="trailer" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            class="h-auto w-[850px] my-2 [mask-image:linear-gradient(to_bottom,transparent,black_30%)] lg:[mask-image:linear-gradient(to_right,transparent,black_15%)] ">
             </iframe>
         </div>
         
